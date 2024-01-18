@@ -46,12 +46,7 @@ export default function Aplicacion() {
               </Button>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-            <Input
-              label="Buscar"
-              icon={<MagnifyingGlassIcon className="h-5 w-5" />}
-            />
-          </div>
+
         </CardHeader>
         <CardBody className="overflow-scroll px-0 p-5">
           <Lista />
